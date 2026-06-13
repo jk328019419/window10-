@@ -1,0 +1,9 @@
+1、以管理员身份运行 PowerShell 或命令提示符。
+
+2、输入命令：slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX，回车执行密钥注入。
+
+3、输入命令：slmgr /skms zh.us.to，回车设置KMS服务器地址。
+
+4、输入命令：slmgr /ato，回车发起激活请求。
+
+5、等待返回“成功激活 Windows”提示，随后可在【设置 > 更新和安全 > 激活】中确认状态。
